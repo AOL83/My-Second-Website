@@ -4,16 +4,21 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgba(0,0,0);
+    background-color: transparent;
 }
 
+section {
+    width: 100%;
+    height: 800px;
+    float: left; 
+}
 
 
 li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
+    font-size: 20px;
+    color: #0078a0;
     text-decoration: none;
 }
 
@@ -22,11 +27,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    color: rgb(225, 255, 0);
+    color: rgb(0, 115, 144);
 }
  .logo {
      cursor: pointer;
  }
+
 
  .nav_links {
      list-style: none;
@@ -42,10 +48,11 @@ header {
  }
 
  .nav_links li a:hover {
-    color: #0088a9
+    color: #55d4f7
 }
 
 button {
+    color: aliceblue;
     padding: 9px 25px;
     background-color: rgba(0,136,169,1);
     border: none;
@@ -55,5 +62,23 @@ button {
 }
 
 button:hover {
-    background-color: rgba(0,136,169,0.8);  
+    background-color: rgba(0,136,169,0.8);
+    transition: 1s;
 }
+
+#services {
+    background: #D69c61;
+}
+
+#projects {
+    background: #d6cf61;
+}
+
+#about {
+    background: #a8d661;
+}
+
+#contacts {
+    background: #61d6a3;
+}
+
