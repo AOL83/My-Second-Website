@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-*{
+* body{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: transparent;
-}
-
-section {
-    width: 100%;
-    height: 800px;
-    float: left; 
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    text-align: center;
+    color: white;
 }
 
 
@@ -23,12 +19,25 @@ li, a, button {
 }
 
 header {
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 10px 10%;
     color: rgb(0, 115, 144);
 }
+#div  h1 {
+    margin: 1px;
+    padding: 1px
+}
+
+.secondweb div {
+    max-width: 100%;
+    height: 100%;
+    padding: 20px;
+    object-fit: cover;
+}
+
  .logo {
      cursor: pointer;
  }
@@ -67,18 +76,48 @@ button:hover {
 }
 
 #services {
+    width: 100%;
+    height: 800px;
+    float: left;
     background: #D69c61;
 }
 
+#services h1 {
+    size: 15px;
+}
+
 #projects {
+    width: 100%;
+    height: 800px;
+    float: left;
     background: #d6cf61;
 }
 
 #about {
+    width: 100%;
+    height: 800px;
+    float: left;
     background: #a8d661;
 }
 
 #contacts {
+    width: 100%;
+    height: 800px;
+    float: left;
     background: #61d6a3;
 }
+
+#web-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#web-image {
+    height: 800px;
+    width: 100%;
+    background: url('../images/web.webp') no-repeat center center;
+}
+
+    
 
