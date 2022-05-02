@@ -6,7 +6,7 @@
     padding: 0%;
     border: none;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 
@@ -26,10 +26,7 @@ header {
     padding: 10px 10%;
     color: rgb(0, 115, 144);
 }
-#div  h1 {
-    margin: 1px;
-    padding: 1px
-}
+
 
 .secondweb div {
     max-width: 100%;
@@ -107,6 +104,11 @@ button:hover {
     background: #61d6a3;
 }
 
+img {
+    height: 0;
+    width: 0;  
+}
+
 #web-outer {
     height: 600px;
     width: 100%;
@@ -115,8 +117,9 @@ button:hover {
 
 #web-image {
     height: 800px;
-    width: 100%;
+    max-width: 100%;
     background: url('../images/web.webp') no-repeat center center;
+    border-bottom: black;
 }
 
     
