@@ -272,9 +272,11 @@ footer {
 }
 
 .social-networks i {
+    text-align: center;
 	font-size: 150%;
-	padding: 20px;
-	color: #481b8b;
+	color: #0078a0;
+    padding: 12px 20px;
+	display: inline-block;
 }
 
 
