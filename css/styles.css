@@ -121,18 +121,118 @@ button:hover {
     background: #a8d661;
 }
 
+#flex-container-top,
+#flex-container-bottom {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
 
+#about-top-left,
+#about-bottom-right {
+	width: 750px;
+	height: auto;
+	padding: 20px;
+	border-radius: 20px;
+	border: 2px #404028 solid;
+	box-shadow: 20px 20px 50px;
+	box-sizing: border-box;
+}
+
+#about-top-left h2,
+#about-bottom-right h2 {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 2em;
+	text-align: center;
+}
+
+#about-bottom-right h3 {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#about-bottom-right h4 {
+	font-weight: bold;
+}
+
+#about-top-left p,
+#about-bottom-right p {
+	padding: 20px 5px 20px 5px;
+}
+
+#about-top-left {
+	margin-top: 30px;
+}
+
+#about-top-left a,
+#about-bottom-right a {
+	text-decoration: underline;
+	color: #404028;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#about-bottom-right {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#about-bottom-right a {
+	padding-top: 30px;
+}
+
+#image-top-right,
+#image-bottom-left {
+	width: 750px;
+	height: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#image-top-right img,
+#image-bottom-left img {
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 20px;
+}
+
+#kevyn-aucion-quote {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+@media screen and (max-width: 1600px) {
+	#flex-container-top,
+	#flex-container-bottom {
+		width: 80%;
+		flex-direction: column;
+		justify-content: space-evenly;
+		margin: 20px auto 20px auto;
+	}
+	#about-top-left,
+	#about-bottom-right,
+	#image-top-right,
+	#image-bottom-left {
+		margin: 20px auto 20px auto;
+		width: 80%;
+		box-sizing: border-box;
+	}
+	
+}
 
 #contact-fourm {
     color: white;
 }
 
 .enquire-button {
-	color: #FAFAFA;
+	color: rgb(255, 255, 255);
 	font-family: 'Poiret One', sans-serif;
 	font-size: 2em;
 	font-weight: bold;
-	background-color: #4ddfe6;
+	background-color: #0078a0;
 	padding: 5px;
 	margin: 10px auto;
 	display: block;
@@ -143,9 +243,10 @@ button:hover {
 
 
 .enquire-button:hover {
-    color:  rgb(0, 0, 0);
+    color:  #1c1b1b;
 	transform: scale(1.2);
-	transition: 5ms ease-in;
+	transition: 1s;
+    background-color: #11c4ff;
     border-color: rgb(228, 44, 44);
 }
 
@@ -229,6 +330,7 @@ textarea:focus {
 #contact-form {
     width: 100%;
     height: 800px;
+    padding-left: 4px;
     float: left;
     background: white
 }
@@ -272,6 +374,7 @@ footer {
 }
 
 .social-networks i {
+    -ms-flex-align: center;
     text-align: center;
 	font-size: 150%;
 	color: #0078a0;
