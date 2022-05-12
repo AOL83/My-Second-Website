@@ -13,7 +13,7 @@
 li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 25px;
     color: #0078a0;
     text-decoration: none;
     cursor: pointer;
@@ -22,13 +22,16 @@ li, a, button {
 
 
 header {
+	font-size: xx-large;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 10%;
-    color: rgb(0, 115, 144);
+    color: #0078a0;
 }
+
+
 
 
 .navbar {
@@ -100,7 +103,7 @@ button:hover {
     width: 100%;
     height: 800px;
     float: left;
-    background: #D69c61;
+    background: #ffffff;
 }
 
 #services h1 {
@@ -111,14 +114,14 @@ button:hover {
     width: 100%;
     height: 800px;
     float: left;
-    background: #d6cf61;
+    background: #ffffff;
 }
 
 #about {
     width: 100%;
     height: 800px;
     float: left;
-    background: #a8d661;
+    background: #ffffff;
 }
 
 #flex-container-top,
@@ -198,7 +201,19 @@ button:hover {
 	border-radius: 20px;
 }
 
-#kevyn-aucion-quote {
+#Patrick-Lencioni-quote {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#Reid-Hoffman-quote {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#Iyanla-Vanzant-quote {
 	font-family: 'Poiret One', sans-serif;
 	font-size: 1.5em;
 	text-align: center;
@@ -243,7 +258,7 @@ button:hover {
 
 
 .enquire-button:hover {
-    color:  #1c1b1b;
+    color:  #1b1b1c;
 	transform: scale(1.2);
 	transition: 1s;
     background-color: #11c4ff;
@@ -277,6 +292,8 @@ button:hover {
 	width: 91%;
 	margin: 10px 50px 10px 50px;
 }
+
+
 textarea {
 	background-color: #FAFAFA;
 	border: 1px solid #797861;
@@ -306,7 +323,7 @@ textarea {
 textarea:focus {
 	background-color: #FAFAFA;
 	outline: 2px solid #404028;
-	color: #404028;
+	color: #3a3a27;
 }
 
 
@@ -345,14 +362,6 @@ textarea:focus {
 }
 
 
-
-footer {
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	bottom: 0;
-}
-
 .contact-info {
 	margin: auto;
 	text-align: left;
@@ -383,4 +392,9 @@ footer {
 }
 
 
-
+footer {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	bottom: 0;
+}
