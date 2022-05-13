@@ -9,12 +9,16 @@
     color: black;
 }
 
+body h1 {
+	font-size: 250%;
+}
+
 
 li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 25px;
-    color: #0078a0;
+    color: #000000;
     text-decoration: none;
     cursor: pointer;
 }
@@ -22,7 +26,7 @@ li, a, button {
 
 
 header {
-	font-size: xx-large;
+	font-size: x-large;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
@@ -54,17 +58,10 @@ header {
     margin-right: 15%;
 }
 
-.banner-area {
-    position: relative;
-    background-image: url('../images/web.webp');
-    height: 100vh;
-    max-width: 100%;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
+
 
  .nav_links {
+	 
      list-style: none;
  }
 
@@ -124,17 +121,81 @@ button:hover {
     background: #ffffff;
 }
 
-#flex-container-top,
-#flex-container-bottom {
+#flex-container0-top,
+#flex-container0-bottom {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 }
 
-#about-top-left,
-#about-bottom-right {
-	width: 750px;
+#about0-top-left,
+#about0-bottom-right {
+	background-color: #FAFAFA;
+	width: 1000px;
+	height: auto;
+	padding: 20px;
+	border-radius: 20px;
+	border: 2px #282940 solid;
+	box-shadow: 20px 20px 50px;
+	box-sizing: border-box;
+}
+
+#about0-top-left h2,
+#about0-bottom-right h2 {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 2em;
+	text-align: center;
+}
+
+#about0-bottom-right h3 {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#about0-bottom-right h4 {
+	font-weight: bold;
+}
+
+#about0-top-left p,
+#about0-bottom-right p {
+	padding: 20px 5px 20px 5px;
+}
+
+#about0-top-left {
+	margin-top: 30px;
+}
+
+#about0-top-left a,
+#about0-bottom-right a {
+	text-decoration: underline;
+	color: #404028;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#about0-bottom-right {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#about0-bottom-right a {
+	padding-top: 30px;
+}
+
+#flex-container1-top,
+#flex-container1-bottom {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+#about1-top-left,
+#about1-bottom-right {
+	background-color: #FAFAFA;
+	width: 1000px;
 	height: auto;
 	padding: 20px;
 	border-radius: 20px;
@@ -143,62 +204,110 @@ button:hover {
 	box-sizing: border-box;
 }
 
-#about-top-left h2,
-#about-bottom-right h2 {
+#about1-top-left h2,
+#about1-bottom-right h2 {
 	font-family: 'Poiret One', sans-serif;
 	font-size: 2em;
 	text-align: center;
 }
 
-#about-bottom-right h3 {
+#about1-bottom-right h3 {
 	font-family: 'Poiret One', sans-serif;
 	font-size: 1.5em;
 	font-weight: bold;
 }
 
-#about-bottom-right h4 {
+#about1-bottom-right h4 {
 	font-weight: bold;
 }
 
-#about-top-left p,
-#about-bottom-right p {
+#about1-top-left p,
+#about1-bottom-right p {
 	padding: 20px 5px 20px 5px;
 }
 
-#about-top-left {
+#about1-top-left {
 	margin-top: 30px;
 }
 
-#about-top-left a,
-#about-bottom-right a {
+#about1-top-left a,
+#about1-bottom-right a {
 	text-decoration: underline;
 	color: #404028;
 	font-weight: bold;
 	font-style: italic;
 }
 
-#about-bottom-right {
+#about1-bottom-right {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
-#about-bottom-right a {
+#about1-bottom-right a {
 	padding-top: 30px;
 }
 
-#image-top-right,
-#image-bottom-left {
-	width: 750px;
-	height: auto;
-	margin-top: auto;
-	margin-bottom: auto;
+#flex-container2-top,
+#flex-container2-bottom {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
-#image-top-right img,
-#image-bottom-left img {
-	max-width: 100%;
-	max-height: 100%;
+#about2-top-left,
+#about2-bottom-right {
+	background-color: #FAFAFA;
+	width: 1000px;
+	height: auto;
+	padding: 20px;
 	border-radius: 20px;
+	border: 2px #404028 solid;
+	box-shadow: 20px 20px 50px;
+	box-sizing: border-box;
+}
+
+#about2-top-left h2,
+#about2-bottom-right h2 {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 2em;
+	text-align: center;
+}
+
+#about2-bottom-right h3 {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#about2-bottom-right h4 {
+	font-weight: bold;
+}
+
+#about2-top-left p,
+#about2-bottom-right p {
+	padding: 20px 5px 20px 5px;
+}
+
+#about2-top-left {
+	margin-top: 30px;
+}
+
+#about2-top-left a,
+#about2-bottom-right a {
+	text-decoration: underline;
+	color: #404028;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#about2-bottom-right {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#about2-bottom-right a {
+	padding-top: 30px;
 }
 
 #Patrick-Lencioni-quote {
@@ -326,7 +435,13 @@ textarea:focus {
 	color: #3a3a27;
 }
 
-
+#web-image {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url('../images/web.webp') no-repeat center center;
+    border-bottom: black;
+}
 
 #web-outer {
     height: 600px;
@@ -334,12 +449,46 @@ textarea:focus {
     overflow: hidden;
 }
 
-#web-image {
-    position: relative;
+#web2-image {
+	position: relative;
     height: 100vh;
     width: 100%;
-    background: url('../images/web.webp') no-repeat center center;
-    border-bottom: black;
+    background: url('../images/web2.webp') no-repeat center center;
+    border-bottom: black;	
+}
+
+#web2-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#web3-image {
+	position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url('../images/web3.webp') no-repeat center center;
+    border-bottom: black;	
+}
+
+#web3-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#web4-image {
+	position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url('../images/web4.webp') no-repeat center center;
+    border-bottom: black;	
+}
+
+#web4-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
 }
 
 
@@ -398,3 +547,4 @@ footer {
 	width: 100%;
 	bottom: 0;
 }
+
