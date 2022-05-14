@@ -16,7 +16,7 @@ body h1 {
 
 li, a, button {
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+    font-weight: 500%;
     font-size: 25px;
     color: #000000;
     text-decoration: none;
@@ -39,10 +39,10 @@ header {
 
 
 .navbar {
-    position: float;
+    /* position: float; */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     flex-direction: row;
     flex-wrap: wrap;
     background-color: transparent;
@@ -76,18 +76,7 @@ header {
 
  .nav_links li a:hover {
      transition: 2ms;
-    color: #55d4f7
-}
-
-button {
-    color: white;
-    padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    float: right;
+    color: #55d4f7;
 }
 
 button:hover {
@@ -439,7 +428,7 @@ textarea:focus {
     position: relative;
     height: 100vh;
     width: 100%;
-    background: url('../images/web.webp') no-repeat center center;
+    background: url('../images/web.webp') no-repeat center center/cover;
     border-bottom: black;
 }
 
@@ -453,7 +442,7 @@ textarea:focus {
 	position: relative;
     height: 100vh;
     width: 100%;
-    background: url('../images/web2.webp') no-repeat center center;
+    background: url('../images/web2.webp') no-repeat center center/cover;
     border-bottom: black;	
 }
 
@@ -464,10 +453,11 @@ textarea:focus {
 }
 
 #web3-image {
+	object-fit: contain;
 	position: relative;
     height: 100vh;
     width: 100%;
-    background: url('../images/web3.webp') no-repeat center center;
+    background: url('../images/web3.webp') no-repeat center center/cover;
     border-bottom: black;	
 }
 
@@ -478,11 +468,14 @@ textarea:focus {
 }
 
 #web4-image {
+	background-size: contain;
 	position: relative;
     height: 100vh;
     width: 100%;
-    background: url('../images/web4.webp') no-repeat center center;
-    border-bottom: black;	
+    background: url('../images/web4.webp') no-repeat center center/cover;
+    border-bottom: black;
+	margin: auto;
+	padding: 0;	
 }
 
 #web4-outer {
@@ -503,24 +496,25 @@ textarea:focus {
 
 
 .contact-info {
-	margin: auto;
-	text-align: center;
-	letter-spacing: 4px;
+	margin: 20px;
+	text-align: left;
 	display: block;
-	padding: 5px;
+	padding: 20px;
 }
 
 
-.contact-info {
+/* .contact-info {
 	margin: auto;
 	text-align: left;
 	letter-spacing: 4px;
 	display: inline;
 	padding: 5px;
-}
+} */
 
 .contact-info p {
 	padding: 5px;
+	margin: 20px;
+	letter-spacing: 4px;
 }
 
 .social-networks {
