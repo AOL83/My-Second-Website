@@ -6,17 +6,21 @@
     padding: 0%;
     border: none;
     text-align: center;
+	font-family: 'Poiret One', sans-serif;
     color: black;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 body h1 {
-	font-size: 250%;
+	font-size: 200%;
 }
 
 
 li, a, button {
     font-family: "Montserrat", sans-serif;
-    font-weight: 500%;
+    /* font-weight: 500%; */
     font-size: 25px;
     color: #000000;
     text-decoration: none;
@@ -26,12 +30,12 @@ li, a, button {
 
 
 header {
-	font-size: x-large;
+	font-size: 25px;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10%;
+    padding: 5px 5%;
     color: #0078a0;
 }
 
@@ -41,8 +45,8 @@ header {
 .navbar {
     /* position: float; */
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: right;
+    /* align-items: center; */
     flex-direction: row;
     flex-wrap: wrap;
     background-color: transparent;
@@ -53,7 +57,7 @@ header {
 
 .nav {
     display: flex;
-    justify-content: right;
+    /* justify-content: right; */
     list-style: none;
     margin-right: 15%;
 }
@@ -79,11 +83,11 @@ header {
     color: #55d4f7;
 }
 
-button:hover {
+/* button:hover {
     color: #000;
     background-color: rgba(80, 207, 238, 0.8);
     transition: 1s;
-}
+} */
 
 #services {
     width: 100%;
@@ -132,13 +136,13 @@ button:hover {
 
 #about0-top-left h2,
 #about0-bottom-right h2 {
-	font-family: 'Poiret One', sans-serif;
+	/* font-family: 'Poiret One', sans-serif; */
 	font-size: 2em;
 	text-align: center;
 }
 
 #about0-bottom-right h3 {
-	font-family: 'Poiret One', sans-serif;
+	/* font-family: 'Poiret One', sans-serif; */
 	font-size: 1.5em;
 	font-weight: bold;
 }
@@ -195,13 +199,13 @@ button:hover {
 
 #about1-top-left h2,
 #about1-bottom-right h2 {
-	font-family: 'Poiret One', sans-serif;
+	/* font-family: 'Poiret One', sans-serif; */
 	font-size: 2em;
 	text-align: center;
 }
 
 #about1-bottom-right h3 {
-	font-family: 'Poiret One', sans-serif;
+	/* font-family: 'Poiret One', sans-serif; */
 	font-size: 1.5em;
 	font-weight: bold;
 }
@@ -258,13 +262,13 @@ button:hover {
 
 #about2-top-left h2,
 #about2-bottom-right h2 {
-	font-family: 'Poiret One', sans-serif;
+	/* font-family: 'Poiret One', sans-serif; */
 	font-size: 2em;
 	text-align: center;
 }
 
 #about2-bottom-right h3 {
-	font-family: 'Poiret One', sans-serif;
+	/* font-family: 'Poiret One', sans-serif; */
 	font-size: 1.5em;
 	font-weight: bold;
 }
@@ -300,19 +304,19 @@ button:hover {
 }
 
 #Patrick-Lencioni-quote {
-	font-family: 'Poiret One', sans-serif;
+	/* font-family: 'Poiret One', sans-serif; */
 	font-size: 1.5em;
 	text-align: center;
 }
 
 #Reid-Hoffman-quote {
-	font-family: 'Poiret One', sans-serif;
+	/* font-family: 'Poiret One', sans-serif; */
 	font-size: 1.5em;
 	text-align: center;
 }
 
 #Iyanla-Vanzant-quote {
-	font-family: 'Poiret One', sans-serif;
+	/* font-family: 'Poiret One', sans-serif; */
 	font-size: 1.5em;
 	text-align: center;
 }
@@ -342,7 +346,7 @@ button:hover {
 
 .enquire-button {
 	color: rgb(255, 255, 255);
-	font-family: 'Poiret One', sans-serif;
+	/* font-family: 'Poiret One', sans-serif; */
 	font-size: 2em;
 	font-weight: bold;
 	background-color: #0078a0;
@@ -365,7 +369,7 @@ button:hover {
 
 
 #contact-form h2 {
-	font-family: 'Poiret One', sans-serif;
+	/* font-family: 'Poiret One', sans-serif; */
 	padding: 20px;
 	text-align: center;
 	font-size: 3em;
@@ -425,6 +429,7 @@ textarea:focus {
 }
 
 #web-image {
+	margin-bottom: 30px;
     position: relative;
     height: 100vh;
     width: 100%;
@@ -488,9 +493,9 @@ textarea:focus {
 
 #contact-form {
     width: 100%;
-    height: 800px;
+    /* height: 800px; */
     padding-left: 4px;
-    float: left;
+    /* float: left; */
     background: white
 }
 
@@ -542,3 +547,8 @@ footer {
 	bottom: 0;
 }
 
+/* Thank you page */
+
+.thank-you-container {
+	flex-grow: 1;
+}
