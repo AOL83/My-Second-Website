@@ -14,7 +14,12 @@
 }
 
 body h1 {
-	font-size: 20%;
+	font-size: 215%;
+}
+
+h2 {
+	font-size: 250%;
+	font-family: "Montserrat", sans-serif;
 }
 
 
@@ -433,7 +438,7 @@ textarea:focus {
     position: relative;
     height: 100vh;
     width: 100%;
-    background: url('../images/web.webp') no-repeat center center/cover;
+    background: url('../images/web.jpg') no-repeat center center/cover;
     border-bottom: black;
 }
 
@@ -447,7 +452,7 @@ textarea:focus {
 	position: relative;
     height: 100vh;
     width: 100%;
-    background: url('../images/web2.webp') no-repeat center center/cover;
+    background: url('../images/web2.jpg') no-repeat center center/cover;
     border-bottom: black;	
 }
 
@@ -462,7 +467,8 @@ textarea:focus {
 	position: relative;
     height: 100vh;
     width: 100%;
-    background: url('../images/web3.webp') no-repeat center center/cover;
+	margin-bottom: 30px;
+    background: url('../images/web3.webp.jpg') no-repeat center center/cover;
     border-bottom: black;	
 }
 
@@ -477,9 +483,9 @@ textarea:focus {
 	position: relative;
     height: 100vh;
     width: 100%;
-    background: url('../images/web4.webp') no-repeat center center/cover;
+    background: url('../images/man-standing-infront-of-team.jpg') no-repeat center center/cover;
     border-bottom: black;
-	margin: auto;
+	margin-bottom: 30px;
 	padding: 0;	
 }
 
