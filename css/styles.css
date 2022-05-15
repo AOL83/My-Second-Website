@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-* body{
+body{
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
@@ -12,66 +12,67 @@
 	flex-direction: column;
 	min-height: 100vh;
 }
+
 /* body h1 to contain RMBT styles */
 body h1 {
 	display: block;
 	font-size: 215%;
+	margin: 0;
+	padding: 0;
 }
 /* h2 to cotain styles */
 h2 {
 	font-size: 60px;
 	font-family: 'Cinzel', serif;
+	
 }
 /* list to contain styles  */
 li, a, button {
     font-family: "Montserrat", sans-serif;
     /* font-weight: 500%; */
-    font-size: 25px;
+    font-size: 16px;
     color: #000000;
     text-decoration: none;
     cursor: pointer;
 }
+
+
 /* Header styling */
 header {
 	font-size: 25px;
     background-color: transparent;
-    display: flex;
+    /* display: flex; */
     /* justify-content: space-between; */
     align-items: center;
-    padding: 0 10%;
+    /* padding: 0 10%; */
     color: #0078a0;
 }
 /* nav styles */
 .navbar {
     /* position: float; */
-    display: flex;
-    justify-content: right;
+    /* display: flex;
+    justify-content: right; */
     /* align-items: center; */
-    flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
     background-color: transparent;
     width: 100%;
-    height: 15%;
-    z-index: 1;
-}
-
-.nav {
-    display: flex;
-    /* justify-content: right; */
-    list-style: none;
-    margin-right: 15%;
+    height: 100%;
+	/* flex-direction: row; */
+    /* z-index: 1; */
 }
 
 
 
  .nav_links {
-	 
-     list-style: none;
+	display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    list-style: none;
  }
 
  .nav_links li {
-     display: inline-block;
-     padding: 0px 20px;
+	font-size: 16px;
  }
 
  .nav_links li a {
@@ -83,6 +84,28 @@ header {
     color: #55d4f7;
 }
 
+/* Hero setion */
+section {
+	padding: 0 4px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+#web-h2 {
+	background: #ffffff8c;
+	border-radius: 5px;
+	width: fit-content;
+	display: inline-block;
+	margin: 0;
+	font-size: 34px;
+}
+
+
+#web-image {
+    height: 90vh;
+    width: 100%;
+    background: url('../images/web.jpg') no-repeat center center/cover;
+}
 /* button:hover {
     color: #000;
     background-color: rgba(80, 207, 238, 0.8);
@@ -92,8 +115,8 @@ header {
 #services {
     width: 100%;
     height: 800px;
-    float: left;
     background: #ffffff;
+	
 }
 
 #services h1 {
@@ -103,14 +126,13 @@ header {
 #projects {
     width: 100%;
     height: 800px;
-    float: left;
     background: #ffffff;
 }
 
 #about {
     width: 100%;
     height: 800px;
-    float: left;
+    box-sizing: border-box;
     background: #ffffff;
 }
 
@@ -428,14 +450,7 @@ textarea:focus {
 	color: #3a3a27;
 }
 
-#web-image {
-	margin-bottom: 30px;
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    background: url('../images/web.jpg') no-repeat center center/cover;
-    border-bottom: black;
-}
+
 
 #web-outer {
     height: 600px;
