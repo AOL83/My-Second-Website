@@ -12,17 +12,17 @@
 	flex-direction: column;
 	min-height: 100vh;
 }
-
+/* body h1 to contain RMBT styles */
 body h1 {
+	display: block;
 	font-size: 215%;
 }
-
+/* h2 to cotain styles */
 h2 {
-	font-size: 250%;
-	font-family: "Montserrat", sans-serif;
+	font-size: 70px;
+	font-family: 'Cinzel', serif;
 }
-
-
+/* list to contain styles  */
 li, a, button {
     font-family: "Montserrat", sans-serif;
     /* font-weight: 500%; */
@@ -31,9 +31,7 @@ li, a, button {
     text-decoration: none;
     cursor: pointer;
 }
-
-
-
+/* Header styling */
 header {
 	font-size: 25px;
     background-color: transparent;
@@ -43,10 +41,7 @@ header {
     padding: 5px 5%;
     color: #0078a0;
 }
-
-
-
-
+/* nav styles */
 .navbar {
     /* position: float; */
     display: flex;
