@@ -19,7 +19,7 @@ body h1 {
 }
 /* h2 to cotain styles */
 h2 {
-	font-size: 70px;
+	font-size: 60px;
 	font-family: 'Cinzel', serif;
 }
 /* list to contain styles  */
@@ -36,9 +36,9 @@ header {
 	font-size: 25px;
     background-color: transparent;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-    padding: 5px 5%;
+    padding: 0 10%;
     color: #0078a0;
 }
 /* nav styles */
@@ -168,7 +168,7 @@ header {
 	font-style: italic;
 }
 
-#about0-bottom-right {
+.about0-bottom-right {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
