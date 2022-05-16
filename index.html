@@ -9,13 +9,15 @@
 	</head>
 	<body>
 		<!-- Header to contain navbar -->
-		<header>
-			<h1>RMBT</h1>
+		<header id="home">
+			<a href="#index.html">
+				<h1>RMBT</h1>
+			</a>
 			<nav class="navbar">
 				<ul class="nav_links">
-					<li><a href="#services">Services</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#about">About</a></li>
+					<li><a href="#web2-image">Services</a></li>
+					<li><a href="#web3-image">Projects</a></li>
+					<li><a href="#web4-image">About</a></li>
 					<li><a href="#contact-form">Contact</a></li>
 				</ul>
 			</nav>
@@ -29,14 +31,14 @@
         </section>
 
 		<!-- section to contain img & services information -->
-		<section id="services">
+		<section class="services">
 			<div id="web2-image"  url="Office Space">
 				<div id="flex-container0-top">
 					<div id="about0-top-left">
 						<h2>Services</h2>
 						<p>IT Office Solutions</p>
-						<p>Our Staff Are Specialist In IT support, IT Services, IT Solutions Based In Central London Our Staff Are Fully Trained In Helpdesk Support, Remote IT Support, Apple Mac IT Support</p>
-						<p>We provide network security solutions include firewalls, anti-virus software, web filtering, patch management, built-in VPNs, and regularly scheduled check-ups from your IT service provider. Help desk support is a vital tool for any business that doesn't have an in-house IT team.</p>
+						<p>We are Specialist In IT support, IT Services, Based In Central London we are Fully Trained In Helpdesk Support, Remote IT Support, Apple Mac IT Support</p>
+						<p>We provide network security solutions include firewalls, anti-virus software, web filtering, patch management, built-in VPNs and more.</p>
 						<p>Want To Get In Touch Use Are. <a href="#contact-form" class="contact-link">conact form</a> and we can arnswer any questions.</p>
 						<!-- <p id="Patrick-Lencioni-quote">"Teamwork begins by building trust. And the only way to do that is to overcome our need for invulnerability." Patrick Lencioni</p> -->
 					</div>
@@ -72,8 +74,7 @@
 							software and staff for their business needs.
 						</p> -->
 						<p>
-							Our preventive approach to maintenance and London locations means we can be on-site to help solve a problem relatively quickly. We provide a comprehensive range of
-							enterprise level IT services to a range of clients from start-ups to enterprises across a variety of industry sectors.
+							Our preventive approach to maintenance and London locations means we can be on-site to help solve a problem relatively quickly.
 						</p>
 						<p>Want to get in touch use are. <a href="#contact-form" class="contact-link">conact form</a> and we can arnswer any questions.</p>
 						<!-- <p id="Iyanla-Vanzant-quote">The way to achieve your own success is to be willing to help somebody else get it first." Iyanla Vanzant</p> -->
@@ -84,7 +85,7 @@
 		
 		<!--section to contain form -->
 		<section class="contact-form-container">
-			<h2><b>Contact Form</b></h2>
+			<h2>Contact Form</h2>
 			<div id="contact-form">
 				<form action="thankyou.html" method="GET" aria-label="Form to request a callback">
 					<label for="name">Name:</label>
@@ -103,6 +104,9 @@
 					<textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here..."></textarea>
 					<input type="submit" value="Submit" class="enquire-button" />
 				</form>
+				<a href="index.html#home">
+					<h4>Back to top</h4>
+				</a>
 			</div>
 		</section>
 

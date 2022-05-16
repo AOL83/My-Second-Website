@@ -15,27 +15,12 @@ body{
 
 /* body h1 to contain RMBT styles */
 body h1 {
+	color: #0078a0;
 	display: block;
 	font-size: 215%;
 	margin: 0;
 	padding: 0;
 }
-/* h2 to cotain styles */
-h2 {
-	font-size: 60px;
-	font-family: 'Cinzel', serif;
-	
-}
-/* list to contain styles  */
-li, a, button {
-    font-family: "Montserrat", sans-serif;
-    /* font-weight: 500%; */
-    font-size: 16px;
-    color: #000000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
 
 /* Header styling */
 header {
@@ -47,6 +32,24 @@ header {
     /* padding: 0 10%; */
     color: #0078a0;
 }
+
+/* h2 to cotain styles */
+h2 {
+	font-size: 60px;
+	font-family: 'Cinzel', serif;
+	
+}
+
+/* list to contain styles  */
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    /* font-weight: 500%; */
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* nav styles */
 .navbar {
     /* position: float; */
@@ -81,7 +84,8 @@ header {
 
  .nav_links li a:hover {
      transition: 2ms;
-    color: #55d4f7;
+     color: #55d4f7;
+	 border-bottom: 1px solid #3a3a3a;
 }
 
 /* Hero setion */
@@ -89,6 +93,13 @@ section {
 	padding: 0 4px;
 	box-sizing: border-box;
 	width: 100%;
+}
+
+
+#web-image {
+    height: 90vh;
+    width: 100%;
+    background: url('../images/web.jpg') no-repeat center center/cover;
 }
 
 #web-h2 {
@@ -100,24 +111,6 @@ section {
 	font-size: 34px;
 }
 
-
-#web-image {
-    height: 90vh;
-    width: 100%;
-    background: url('../images/web.jpg') no-repeat center center/cover;
-}
-/* button:hover {
-    color: #000;
-    background-color: rgba(80, 207, 238, 0.8);
-    transition: 1s;
-} */
-
-#services {
-    width: 100%;
-    height: 800px;
-    background: #ffffff;
-	
-}
 
 #services h1 {
     size: 15px;
@@ -147,7 +140,7 @@ section {
 #about0-top-left,
 #about0-bottom-right {
 	background-color: #FAFAFA;
-	width: 1000px;
+	width: 800px;
 	height: auto;
 	padding: 20px;
 	border-radius: 20px;
@@ -210,7 +203,7 @@ section {
 #about1-top-left,
 #about1-bottom-right {
 	background-color: #FAFAFA;
-	width: 1000px;
+	width: 800px;
 	height: auto;
 	padding: 20px;
 	border-radius: 20px;
@@ -273,7 +266,7 @@ section {
 #about2-top-left,
 #about2-bottom-right {
 	background-color: #FAFAFA;
-	width: 1000px;
+	width: 800px;
 	height: auto;
 	padding: 20px;
 	border-radius: 20px;
@@ -450,6 +443,24 @@ textarea:focus {
 	color: #3a3a27;
 }
 
+/* infomation setion */
+
+#web2-image {
+    width: 100%;
+    height: 800px;
+    background: #ffffff;
+	margin-bottom: 20px;
+	
+}
+
+#web-image {
+	position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url('../images/web.jpg') no-repeat center center/cover;
+    margin-bottom: 20px;
+}
+
 
 
 #web-outer {
@@ -505,7 +516,7 @@ textarea:focus {
     overflow: hidden;
 }
 
-
+/* contact form */
 
 #contact-form {
     width: 100%;
@@ -524,18 +535,18 @@ textarea:focus {
 }
 
 
-/* .contact-info {
-	margin: auto;
-	text-align: left;
-	letter-spacing: 4px;
-	display: inline;
-	padding: 5px;
-} */
-
 .contact-info p {
 	padding: 5px;
 	margin: 20px;
 	letter-spacing: 4px;
+}
+
+/* footer */
+footer {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	bottom: 0;
 }
 
 .social-networks {
@@ -555,16 +566,11 @@ textarea:focus {
 	display: inline-block;
 }
 
-
-footer {
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	bottom: 0;
-}
-
 /* Thank you page */
 
 .thank-you-container {
 	flex-grow: 1;
+}
+#thank-you {
+	font-size: 2em;
 }
